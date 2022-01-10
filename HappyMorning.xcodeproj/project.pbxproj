@@ -10,7 +10,6 @@
 		DA4EC167278BCD50005A2A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4EC166278BCD50005A2A8C /* AppDelegate.swift */; };
 		DA4EC169278BCD50005A2A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4EC168278BCD50005A2A8C /* SceneDelegate.swift */; };
 		DA4EC16B278BCD50005A2A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4EC16A278BCD50005A2A8C /* ViewController.swift */; };
-		DA4EC16E278BCD50005A2A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4EC16C278BCD50005A2A8C /* Main.storyboard */; };
 		DA4EC171278BCD50005A2A8C /* HappyMorning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA4EC16F278BCD50005A2A8C /* HappyMorning.xcdatamodeld */; };
 		DA4EC173278BCD53005A2A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4EC172278BCD53005A2A8C /* Assets.xcassets */; };
 		DA4EC176278BCD53005A2A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4EC174278BCD53005A2A8C /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		DA4EC166278BCD50005A2A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4EC168278BCD50005A2A8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA4EC16A278BCD50005A2A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA4EC16D278BCD50005A2A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA4EC170278BCD50005A2A8C /* HappyMorning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyMorning.xcdatamodel; sourceTree = "<group>"; };
 		DA4EC172278BCD53005A2A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4EC175278BCD53005A2A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				DA4EC166278BCD50005A2A8C /* AppDelegate.swift */,
 				DA4EC168278BCD50005A2A8C /* SceneDelegate.swift */,
 				DA4EC16A278BCD50005A2A8C /* ViewController.swift */,
-				DA4EC16C278BCD50005A2A8C /* Main.storyboard */,
 				DA4EC172278BCD53005A2A8C /* Assets.xcassets */,
 				DA4EC174278BCD53005A2A8C /* LaunchScreen.storyboard */,
 				DA4EC177278BCD53005A2A8C /* Info.plist */,
@@ -236,7 +233,6 @@
 			files = (
 				DA4EC176278BCD53005A2A8C /* LaunchScreen.storyboard in Resources */,
 				DA4EC173278BCD53005A2A8C /* Assets.xcassets in Resources */,
-				DA4EC16E278BCD50005A2A8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA4EC16C278BCD50005A2A8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA4EC16D278BCD50005A2A8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA4EC174278BCD53005A2A8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +435,6 @@
 				INFOPLIST_FILE = HappyMorning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +461,6 @@
 				INFOPLIST_FILE = HappyMorning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
